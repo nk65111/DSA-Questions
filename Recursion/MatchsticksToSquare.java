@@ -1,11 +1,14 @@
+import java.util.Arrays;
+
 //leetcode -   473. Matchsticks to Square
 
 
 
 //approch
+
 // 1.We have to use all sticks , so sum of all sticks must be divided by 4 and the length of each side must be not greater than sum/4.
 // 2.If we sort Decending order than we can pick first those stick whose length is maximum.
-// 3.we create 4 size array where every index shows side of a Square
+// 3.we create 4 size array where every index shows side of a Square.
 // 4.put every stick in every index of array and check is all value of array is equal or not.
 
 
